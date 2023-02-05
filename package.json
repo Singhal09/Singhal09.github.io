@@ -1,9 +1,9 @@
 {
   "name": "ICE02",
   "version": "1.0.0",
-  "description": "ICE01 for WEBD6201",
+  "description": "WEBD6201 - ICE02",
   "main": "index.js",
-  "repository": "https://github.com/Singhal09/Singhal09.github.io",
+  "repository": "https://github.com/Singhal09/WEBD6201_Assessments.git",
   "author": "Sanya Singhal",
   "license": "MIT",
   "dependencies": {
