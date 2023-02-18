@@ -1,7 +1,7 @@
 {
-  "name": "ICE02",
+  "name": "ICE03",
   "version": "1.0.0",
-  "description": "WEBD6201 - ICE02",
+  "description": "WEBD6201 - ICE03",
   "main": "index.js",
   "repository": "https://github.com/Singhal09/WEBD6201_Assessments.git",
   "author": "Sanya Singhal",
@@ -11,5 +11,8 @@
     "@popperjs/core": "^2.11.6",
     "bootstrap": "^5.2.3",
     "jquery": "^3.6.3"
+  },
+  "devDependencies": {
+    "@types/jquery": "^3.5.16"
   }
 }
