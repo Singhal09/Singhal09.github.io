@@ -271,7 +271,7 @@
         let pageName = router.ActiveLink;
         let pageTitle = pageName.charAt(0).toUpperCase() + pageName.slice(1);
         let callback = ActiveLinkCallback();
-        $.get(`./views/components/${pageName}.html`, function (html_data) {
+        $.get(`./views/content/${pageName}.html`, function (html_data) {
             $("main").html(html_data);
             callback();
         });
@@ -287,8 +287,9 @@
     function Start() {
         console.log("app started");
         LoadHeader();
-        LoadFooter();
         LoadContent();
+        LoadFooter();
+
     }
     window.addEventListener("load", Start);
 })();
