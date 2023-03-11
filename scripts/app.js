@@ -289,7 +289,6 @@
         LoadHeader();
         LoadContent();
         LoadFooter();
-
     }
     window.addEventListener("load", Start);
 })();
