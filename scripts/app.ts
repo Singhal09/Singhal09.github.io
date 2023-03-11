@@ -381,8 +381,9 @@
         console.log("app started");
 
         LoadHeader();
+        LoadContent();
         LoadFooter();
-            LoadContent();
+
 
     }
 
