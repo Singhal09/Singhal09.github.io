@@ -124,7 +124,7 @@
     {   console.log("load content called for"+router.ActiveLink);
         let page_name = router.ActiveLink; // alias for the Active Link
         let callback = ActiveLinkCallBack(); // returns a reference to the correct function
-        $.get(`./Views/content/${page_name}.html`, function(html_date)
+        $.get(`./views/content/${page_name}.html`, function(html_date)
         {
             $("main").html(html_date);
             callback(); // calling the correct function 
@@ -137,7 +137,7 @@
      */
     function LoadFooter(): void
     {
-        $.get(`./Views/components/footer.html`, function(html_date)
+        $.get(`./views/components/footer.html`, function(html_date)
         {
             $("footer").html(html_date);
         });
