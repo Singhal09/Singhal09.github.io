@@ -1,7 +1,3 @@
-//Prerak Patel 100846056
-//Sanya Singhal 100852649
-//zeel sutariya 100846187
-
 // IIFE -- Immediately Invoked Function Expression
 // AKA -- Anonymous Self-Executing Function
 (function()

@@ -1,5 +1,5 @@
 {
-  "name": "webd6201-lab3",
+  "name": "prerakkumarpatel.github.io",
   "version": "1.0.0",
   "description": "starter project for lab3",
   "main": "index.js",
@@ -9,7 +9,9 @@
     "@fortawesome/fontawesome-free": "^5.15.4",
     "@popperjs/core": "^2.11.2",
     "bootstrap": "^5.1.3",
-    "jquery": "^3.6.0"
+    "jquery": "^3.6.0",
+    "lite-server": "^2.6.1",
+    "yarn": "^1.22.19"
   },
   "devDependencies": {
     "@types/jquery": "^3.5.14"
