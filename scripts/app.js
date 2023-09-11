@@ -13,7 +13,7 @@
     }
     function LoadLink(link, data = "") {
         router.ActiveLink = link;
-        console.log("load link called for" + router.ActiveLink);
+        console.log("load link called for " + router.ActiveLink);
         AuthGuard();
         router.LinkData = data;
         history.pushState({}, "", router.ActiveLink);
